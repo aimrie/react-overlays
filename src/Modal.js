@@ -489,7 +489,7 @@ const Modal = React.createClass({
     let modal = this.getDialogElement();
 
     if (modal && modal !== active && !contains(modal, active)) {
-      modal.focus();
+      //modal.focus();
     }
   },
 
